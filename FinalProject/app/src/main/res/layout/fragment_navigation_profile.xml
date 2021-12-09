@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gray"
+    tools:context=".navigation_profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--Information card-->
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <View
+                android:id="@+id/bg_profile"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="-1dp"
+                android:background="@drawable/bg_profile" />
+
+            <ImageView
+                android:id="@+id/imageProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/profile_pic" />
+
+            <TextView
+                android:id="@+id/textName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="35dp"
+                android:layout_toEndOf="@+id/imageProfile"
+                android:fontFamily="@font/kanit"
+                android:text="@string/jane_doe"
+                android:textColor="@color/text_gold"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textNumFav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textName"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="113dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/kanit"
+                android:text="23"
+                android:textColor="@color/text_gold"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textFav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textNumFav"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="100dp"
+                android:fontFamily="@font/kanit"
+                android:text="Favorites"
+                android:textColor="@color/text_gold"
+                android:textSize="12sp" />
+
+            <View
+                android:id="@+id/lineGold"
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/textName"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@id/textNumFav"
+                android:background="@color/text_gold" />
+
+            <TextView
+                android:id="@+id/textNumTran"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="90dp"
+                android:layout_toEndOf="@id/lineGold"
+                android:fontFamily="@font/kanit"
+                android:text="4"
+                android:textColor="@color/text_gold"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textTran"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textNumFav"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/lineGold"
+                android:fontFamily="@font/kanit"
+                android:text="Transaction"
+                android:textColor="@color/text_gold"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <!--Orders card-->
+
+        <View
+            android:id="@+id/orderCard"
+            android:layout_width="378dp"
+            android:layout_height="128dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/order_card" />
+
+        <View
+            android:id="@+id/settingCard"
+            android:layout_width="378dp"
+            android:layout_height="209dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/setting_card" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="218dp">
+
+            <View
+                android:id="@+id/contactCard"
+                android:layout_width="378dp"
+                android:layout_height="103dp"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/contact_card" />
+
+            <ImageView
+                android:id="@+id/supportIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/support" />
+
+            <ImageView
+                android:id="@+id/signOutIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="106dp"
+                android:src="@drawable/sign_out" />
+
+            <TextView
+                android:id="@+id/textContactUs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="73dp"
+                android:layout_marginTop="40dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/kanit"
+                android:text="Contact Us"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textLogOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="73dp"
+                android:layout_marginTop="106dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/kanit"
+                android:text="Logout"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

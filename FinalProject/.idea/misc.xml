@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.4036458333333333" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/drawable/booking_selector.xml" value="0.4036458333333333" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/drawable/btnhover_selector.xml" value="0.2869791666666667" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/drawable/chat_selector.xml" value="0.4036458333333333" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/drawable/home_selector.xml" value="0.4036458333333333" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/drawable/hover_selector.xml" value="0.2869791666666667" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.4036458333333333" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.4036458333333333" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.4036458333333333" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/drawable/input_rectangle.xml" value="0.4036458333333333" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/drawable/profile_gold_line.xml" value="0.4036458333333333" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/drawable/profile_line.xml" value="0.4036458333333333" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/drawable/profile_rectangle.xml" value="0.4036458333333333" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/drawable/profile_selector.xml" value="0.4036458333333333" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/drawable/shop_selector.xml" value="0.4036458333333333" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/drawable/signin_rectangle.xml" value="0.2869791666666667" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/layout/activity_login.xml" value="0.3875" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/layout/activity_splash.xml" value="0.3875" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/layout/fragment_dashboard.xml" value="0.3875" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/layout/fragment_home.xml" value="0.3875" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/layout/fragment_navigation_booking.xml" value="0.3875" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/layout/fragment_navigation_chat.xml" value="0.3875" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/layout/fragment_navigation_profile.xml" value="0.33" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/layout/fragment_navigation_shop.xml" value="0.3875" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/layout/fragment_navigtion_booking.xml" value="0.3875" />
+        <entry key="..\:/Coding Files/Android Studio/FinalProject/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
